@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>上网指南 - 轻语机场</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Organic Watercolor / Fluid Nature Style for Hub Page */
+    .hub-header {
+      text-align: center;
+      margin-bottom: 60px;
+      position: relative;
+    }
+    .hub-header h1 {
+      font-size: 3rem;
+      color: #2C3E50;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    .hub-header p {
+      color: #666;
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .hub-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .hub-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(132, 220, 198, 0.1);
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+    }
+    .hub-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(132, 220, 198, 0.15);
+      border-color: rgba(132, 220, 198, 0.3);
+    }
+    .hub-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, #FFB7B2, #84DCC6, #CDB4DB);
+      opacity: 0.8;
+    }
+    .hub-card h3 {
+      font-size: 1.4rem;
+      color: #2C3E50;
+      margin-bottom: 15px;
+      line-height: 1.4;
+      flex-grow: 1;
+    }
+    .hub-card p {
+      color: #7f8c8d;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .read-more {
+      color: #84DCC6;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      transition: color 0.2s;
+    }
+    .hub-card:hover .read-more {
+      color: #2C3E50;
+    }
+    .read-more svg {
+      width: 18px;
+      height: 18px;
+      margin-left: 5px;
+      fill: currentColor;
+    }
+    /* Decorative fluid blobs */
+    .blob {
+      position: absolute;
+      z-index: -1;
+      filter: blur(40px);
+      opacity: 0.4;
+      border-radius: 50%;
+    }
+    .blob-1 { top: -50px; left: -10%; width: 300px; height: 300px; background: #FFB7B2; }
+    .blob-2 { bottom: -100px; right: -5%; width: 400px; height: 400px; background: #84DCC6; }
+    .blob-3 { top: 40%; left: 40%; width: 250px; height: 250px; background: #CDB4DB; }
+  </style>
+</head>
+<body style="position: relative; overflow-x: hidden;">
+  <header>
+    <div class="logo">
+      <svg viewBox="0 0 200 60" width="160" height="48" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 20 40 Q 30 20 40 40 Q 30 50 20 40 Z" fill="#FFB7B2" opacity="0.8"/>
+        <path d="M 35 45 Q 45 25 55 45 Q 45 55 35 45 Z" fill="#84DCC6" opacity="0.8"/>
+        <path d="M 25 35 Q 35 15 45 35 Q 35 45 25 35 Z" fill="#CDB4DB" opacity="0.8"/>
+        <text x="70" y="42" font-size="28" font-family="'Microsoft YaHei', sans-serif" font-weight="bold" fill="#2C3E50">轻语机场</text>
+      </svg>
+    </div>
+    
+            <input type="checkbox" id="mobile-menu-toggle" class="menu-toggle" style="display:none;">
+            <label for="mobile-menu-toggle" class="menu-hamburger">
+                <span></span><span></span><span></span>
+            </label>
+            <nav style="display:flex; gap: 20px; align-items: center;">
+<a href="index.html#advantages" style="text-decoration:none; color:inherit; font-weight:bold;">核心优势</a>
+            <a href="index.html#streaming" style="text-decoration:none; color:inherit; font-weight:bold;">流媒体解锁</a>
+            <a href="index.html#pricing" style="text-decoration:none; color:inherit; font-weight:bold;">产品定价</a>
+            <a href="index.html#faq" style="text-decoration:none; color:inherit; font-weight:bold;">常见问题</a>
+<a href="surfing-guide.html" style="text-decoration:none; color:inherit; font-weight:bold;">上网指南</a>
+<a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" rel="nofollow" target="_blank" class="nav-cta">立即体验</a>
+</nav>
+  </header>
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <div class="container" style="padding: 100px 5%; max-width: 1200px; margin: 0 auto; position: relative; z-index: 1;">
+    <div class="hub-header">
+      <h1>上网指南</h1>
+      <p>探索数字世界的无限可能。在这里，我们为您准备了详尽的指南和技巧，助您轻松跨越边界，享受如水般流畅的网络体验。</p>
+    </div>
+
+    <div class="hub-grid">
+      <a href="family-digital-passport.html" class="hub-card">
+        <h3>全家人的数字世界通行证：轻语机场让跨国连接如丝般顺滑</h3>
+        <p>现代家庭在教育、娱乐和办公中都离不开稳定的跨国网络。了解轻语机场如何通过多设备支持和低延迟专线，为全家提供完美的数字体验。</p>
+        <span class="read-more">阅读全文 <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+
+      <a href="overseas-education-resources.html" class="hub-card">
+        <h3>如何为孩子筛选和访问海外优质教育资源</h3>
+        <p>面对海量的海外教育平台，家长该如何挑选？又该如何克服网络限制，让孩子顺畅访问Khan Academy等顶尖资源？一文为您解答。</p>
+        <span class="read-more">阅读全文 <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+
+      <a href="hd-video-call-tips.html" class="hub-card">
+        <h3>留学生家庭必备：保持高清视频通话不卡顿的终极方法</h3>
+        <p>跨国视频通话总是卡顿、延迟？从硬件升级到专业网络优化工具，教您一步步解决痛点，让亲情交流不再受阻于网络。</p>
+        <span class="read-more">阅读全文 <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+
+      <a href="unlock-streaming-platforms.html" class="hub-card">
+        <h3>追剧不等待：跨区解锁各大流媒体平台的硬核操作</h3>
+        <p>如何绕过地理封锁，畅享Netflix、Disney+的海量内容？揭秘原生IP的作用，助您轻松实现跨区追剧自由，打造家庭影院。</p>
+        <span class="read-more">阅读全文 <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+
+      <a href="cross-border-ecommerce-network.html" class="hub-card">
+        <h3>在家做跨境电商？你的网络环境可能正拖慢收入</h3>
+        <p>跨境电商卖家最怕的IP关联和网速龟慢问题，其实都源于底层网络基建。了解纯净节点和固定IP的重要性，保护您的店铺资产。</p>
+        <span class="read-more">阅读全文 <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+
+      <a href="public-wifi-safety.html" class="hub-card">
+        <h3>保护个人数字足迹：公共Wi-Fi环境下的安全上网锦囊</h3>
+        <p>免费的公共Wi-Fi暗藏杀机。中间人攻击、恶意热点防不胜防。掌握这些安全技巧与加密工具，让您的隐私数据无懈可击。</p>
+        <span class="read-more">阅读全文 <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+    </div>
+  </div>
+
+  <footer style="position: relative; z-index: 1;">
+    <div class="footer-links">
+      <a href="sitemap.html">网站地图</a>
+      <a href="about.html">关于我们</a>
+      <a href="terms.html">服务条款</a>
+      <a href="privacy.html">隐私政策</a>
+    </div>
+    <p>&copy; 2026 轻语机场 (Qingyu Network). All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
